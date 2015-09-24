@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>待评价回单详情--智能运维平台</title>
+		<script src="../js/metaViewport.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css" />
+	</head>
+
+	<body>
+		<header id="header">
+			<a href="javascript:history.go(-1)" class="goback">返回</a>
+			<h3 class="page-title">待评价回单</h3>
+			<span class="right-icon">&nbsp;</span>
+		</header>
+
+		<div class="evaluationOrderDetail-section">
+			<div class="order-header clearfix">
+				<span class="date">2015-08-15</span>
+				<span class="title">交通银行北京分红数据库调优交通银行北京分红数据库调优交通银行北京分红数据库调优</span>
+			</div>
+
+			<div class="evaluation-detail">
+				<ul class="evaluation-items">
+					<li class="evaluation-item clearfix">
+						<span class="button open"></span>
+						<span class="evaluation-text">请用户确认是否完成实施（安装、维护）?</span>
+					</li>
+					<li class="evaluation-item clearfix">
+						<span class="button open"></span>
+						<span class="evaluation-text">是否在规定时间与客户预约？</span>
+					</li>
+					<li class="evaluation-item clearfix">
+						<span class="button closed"></span>
+						<span class="evaluation-text">是否在规定时间上门服务？</span>
+					</li>
+				</ul>
+
+				<div class="checkbox-list">
+					<h3>您对此次实施任务评价？</h3>
+					<div class="clearfix">
+						<label for="item1">
+							<input type="radio" name="evaluationGroup" id="item1" />非常满意
+						</label>
+						<label for="item2">
+							<input type="radio" name="evaluationGroup" id="item2" />满意
+						</label>
+						<label for="item3">
+							<input type="radio" name="evaluationGroup" id="item3" />不满意
+						</label>
+					</div>
+				</div>
+
+				<textarea name="" rows="" cols="" placeholder="签名"></textarea>
+			</div>
+
+			<div class="button-box">
+				<span class="button" id="cmplete-button">确&#x3000;定 </span>
+			</div>
+		</div>
+
+		<script data-main="../js/wechat09evaluationOrderDetail.js" src="../js/require.min.js"></script>
+	</body>
+
+</html>

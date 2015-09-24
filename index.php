@@ -45,7 +45,7 @@ table tr:nth-child(2n+1) td {
 						应急任务
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat01emergencyTask.html">
+						<a href="code/html/wechat01emergencyTask.html">
 							wechat01emergencyTask.html
 						</a>
 					</td>  
@@ -58,7 +58,7 @@ table tr:nth-child(2n+1) td {
 						抢单列表页
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat02-grabOrder.html">
+						<a href="code/html/wechat02-grabOrder.html">
 							wechat02-grabOrder.html
 						</a>
 					</td>  
@@ -71,7 +71,7 @@ table tr:nth-child(2n+1) td {
 						任务详情
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat03-grabOrderDetail.html">
+						<a href="code/html/wechat03-grabOrderDetail.html">
 							wechat03-grabOrderDetail.html
 						</a>
 					</td>  
@@ -84,7 +84,7 @@ table tr:nth-child(2n+1) td {
 						填写回单--任务详情
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat04-receiptOrder.html">
+						<a href="code/html/wechat04-receiptOrder.html">
 							wechat04-receiptOrder.html
 						</a>
 					</td>  
@@ -97,7 +97,7 @@ table tr:nth-child(2n+1) td {
 						填写回单--维护服务报告
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat05-fillReceiptOrder.html">
+						<a href="code/html/wechat05-fillReceiptOrder.html">
 							wechat05-fillReceiptOrder.html
 						</a>
 					</td>  
@@ -110,7 +110,7 @@ table tr:nth-child(2n+1) td {
 						填写回单--维修历史记录
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat06-repairHistoryList.html">
+						<a href="code/html/wechat06-repairHistoryList.html">
 							wechat06-repairHistoryList.html
 						</a>
 					</td>  
@@ -123,7 +123,7 @@ table tr:nth-child(2n+1) td {
 						退单
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat07-abandonOrder.html">
+						<a href="code/html/wechat07-abandonOrder.html">
 							wechat07-abandonOrder.html
 						</a>
 					</td>  
@@ -136,7 +136,7 @@ table tr:nth-child(2n+1) td {
 						待评价回单列表
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat08-evaluationOrderList.html">
+						<a href="code/html/wechat08-evaluationOrderList.html">
 							wechat08-evaluationOrderList.html
 						</a>
 					</td>  
@@ -149,7 +149,7 @@ table tr:nth-child(2n+1) td {
 						待评价回单详情
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat09-evaluationOrderDetail.html">
+						<a href="code/html/wechat09-evaluationOrderDetail.html">
 							wechat09-evaluationOrderDetail.html
 						</a>
 					</td>  
@@ -162,7 +162,7 @@ table tr:nth-child(2n+1) td {
 						交通路线
 					</td>
 					<td>
-						<a href="intelligentOperation/html/wechat10-trafficRoutes.html">
+						<a href="code/html/wechat10-trafficRoutes.html">
 							wechat10-trafficRoutes.html
 						</a>
 					</td>  
@@ -178,7 +178,7 @@ table tr:nth-child(2n+1) td {
 						登录
 					</td>
 					<td>
-						<a href="intelligentOperation/html/other01-login.html">
+						<a href="code/html/other01-login.html">
 							other01-login.html
 						</a>
 					</td>  
@@ -191,7 +191,7 @@ table tr:nth-child(2n+1) td {
 						 
 					</td>
 					<td>
-						<a href="intelligentOperation/html/">
+						<a href="code/html/">
 							 
 						</a>
 					</td>  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<title>应急任务---智能运维平台</title>
+		<script src="../js/metaViewport.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css"/> 
+	</head> 
+	<body>
+		<header id="header">
+			<a href="javascript:history.go(-1)" class="goback">返回</a>
+			<h3 class="page-title">应急任务</h3>
+			<span class="right-icon">&nbsp;</span>
+		</header>
+		
+		<div class="emergencyTask">
+			<ul class="form-items">
+				<li><input type="text" placeholder="请输入客户名称或编号"/></li>
+				<li><input type="text" placeholder="请输入客户姓名"/></li>
+				<li><input type="text" placeholder="请输入联系电话"/></li>
+				<li><textarea name="" rows="" cols="" placeholder="请输入呼叫记录内容"></textarea></li> 
+			</ul>
+			<div class="button-box">
+				<span class="button" id="cmplete-button">完成</span>
+				<span class="button" id="back-button">返回</span>
+			</div>
+		</div> 
+		
+        <script data-main="../js/wechat01emergencyTask" src="../js/require.min.js"></script>
+	</body> 
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>退单--智能运维平台</title>
+		<script src="../js/metaViewport.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css" />
+	</head>
+
+	<body>
+		<header id="header">
+			<a href="javascript:history.go(-1)" class="goback">返回</a>
+			<h3 class="page-title">退单</h3>
+			<span class="right-icon">&nbsp;</span>
+		</header>
+
+		<div class="abandonOrder-section">
+			<div class="warning-message">
+				注意：退单将扣除20%的任务积分
+			</div>
+
+			<textarea name="" rows="" cols="" placeholder="说明理由："></textarea>
+
+			<ul class="pic-list clearfix">
+				<li class="pic"><img src="../images/photo.jpg" alt=""></li>
+				<li class="pic"><img src="../images/photo.jpg" alt=""></li>
+				<li class="add-item"></li>
+			</ul>
+
+			<div class="button-box">
+				<a href="wechat08-evaluationOrderList.html" class="button" id="cmplete-button">确&#x3000;定</a>
+				<span class="button" id="back-button">取&#x3000;消</span>
+			</div>
+		</div>
+
+		<script data-main="../js/wechat07abandonOrder" src="../js/require.min.js"></script>
+	</body>
+
+</html>

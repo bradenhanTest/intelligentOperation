@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>填写回单--智能运维平台</title>
+		<script src="../js/metaViewport.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css" />
+	</head>
+
+	<body>
+
+		<header id="header">
+			<a href="javascript:history.go(-1)" class="goback">返回</a>
+			<h3 class="page-title">填写回单</h3>
+			<span class="right-icon">&nbsp;</span>
+		</header>
+
+		<div class="receiptOrder-tabs">
+			<a href="wechat04-receiptOrder.html">任务详情</a>
+			<a class="current" href="wechat05-fillReceiptOrder.html">维护服务报告</a>
+			<a href="wechat06-repairHistoryList.html">维修历史记录</a>
+		</div>
+
+		<div class="fillReceiptOrder-section">
+			<ul class="fillReceipt-items">
+				<li class="fillReceipt-item item1 clearfix">
+					<input type="text" placeholder="请输入机型" />
+					<input type="text" placeholder="请输入系列号" />
+				</li>
+				<li class="fillReceipt-item item2 clearfix">
+					<textarea name="" rows="" cols="" placeholder="请输入工作内容"></textarea>
+				</li>
+				<li class="fillReceipt-item item3 clearfix">
+					<textarea name="" rows="" cols="" placeholder="请输入本次解决的问题"></textarea>
+				</li>
+				<li class="fillReceipt-item item4 clearfix">
+					<textarea name="" rows="" cols="" placeholder="请输入下一步工作计划"></textarea>
+				</li>
+				<li class="fillReceipt-item item5 clearfix">
+					<textarea name="" rows="" cols="" placeholder="备注"></textarea>
+				</li>
+			</ul>
+
+			<ul class="pic-list clearfix">
+				<li class="pic"><img src="../images/photo.jpg" alt=""></li>
+				<li class="pic"><img src="../images/photo.jpg" alt=""></li>
+				<li class="add-item"></li>
+			</ul>
+
+			<div class="button-box">
+				<span class="button" id="cmplete-button">完&#x3000;成</span>
+				<span class="button" id="back-button">退&#x3000;单</span>
+			</div>
+		</div>
+
+		<script data-main="../js/wechat05fillReceiptOrder" src="../js/require.min.js"></script>
+	</body>
+
+</html>
