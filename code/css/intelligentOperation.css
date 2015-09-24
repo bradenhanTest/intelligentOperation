@@ -226,3 +226,31 @@ header .right-icon{position: absolute; top: 0; right: .5rem; width: .85rem; heig
 .loginPage .error-message{height: 1.35rem; margin: 1.25rem 3.4rem 0; border-bottom: .025rem solid #086092; -webkit-border-radius: .2rem; border-radius: .2rem; background: #9f2903; color: #fff; font-size: .6rem; line-height: 1.35rem; text-align: center;}
 .loginPage .error-message:before{content: ''; display: inline-block; width: .6rem; height: .6rem; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAAGXcA1uAAADTUlEQVR42mL4//8/AxCXArEyiJHw98+fM0D8hoWBgWE7EBsB8X8GqLKfIJoJKMLw7+9fDhAN5oCVMDCIMoKkQZJIEmBJkGHvQYJAbTDVjEzMzIzYdEgCcQrMRhB+BMR7YHwQEQDEjEgKcmESG4AuPwLEbEA8AYhBYmAVAiAOED8CYhuoxF+Qq15DXSYOxCC+AMhlMHO3INkBNgnZVYFQwXVArAnErEAcAcTfgfgrTB3Mf/+hnucE0t8YUAEfMCA+Aen5QCwM0nUDiLVBGqGOng7E/4F4ExDfgYrBnQUKtWtAbIJkojMQbwPiCCBWBuIZKPZBdb4H4gqgSXwwE5ExkqfVkD0Nwov+Y4K/QKwCU4OuQRaItwHxDyB+CsTVaPIoaQUUGfeAeAUoQQGxFRDrQEMwAd0P/4C4Ht00JPwHiJNh8TALqE8aiL2B8cANpL8i2coFjINvSEmZER7lwNAQhIa/AzR05KF8N6gts4C4DFkDCHMC8UcgngZVHI0UrKKg4EfXAMKGUMXP0OKBBRbTyCASiM8BsRIQLwTij0DMDZVzBeKjsByrAjTJBWqyApJtIP9sgNrwBYg1QAwJJGdx4UgWCUD8DTmm06GaNLHEwRKYgehJQwqIf2NJS6uRDQBUVsYsDcVQFH46uGjBQZViKxRppZObu6OLDoKDixZVEHTQqQguoj9COtQugiBUBGfp2NXFDhVdFG1BdJRK9ZznCYRn8sTARyF9ublJzj3X97JJUPEEcImTQSdcsaK3ugHoUU9hNQbBVKiGeNLgAzSlnn1XvfFiX5VRMUazf7GiGHyArNH2EPZ5lIfmmQk03offI0DPofZvgt+DtrcJcmAPNfCg+RFwr7WT3PVcuy6bTCSJaVCVtj4l8wHprKT5NlgHCUtCZFYxa8aOOAYjG9jsgJaCkgaY92jU0DGl86KjjQXuMQcKMp1bUA+P/mOeu541KXWNN+60pRNcWCfoBwXwrIxPQAb0KltW2BLo6H9e5bCV/bFiHpiJkiau2ALlRafgECRdTm6RBTkreFmxLl2trWvZa88/Jbot6+VYi6vkBfCuD/lQZ2ARZNRP6XvjSqgszX+pv65G45le6xtpdcQZdZRR1UtLD36trnPnC/ANzjdcpwOuqQ4AAAAASUVORK5CYII=) no-repeat 50% 50%; -webkit-background-size: .6rem .6rem; background-size: .6rem .6rem; vertical-align: -.05rem;}
 
+/* registerPage */
+.registerPage{background: #0e78b2;}
+.registerPage .register-section .tele-box{}
+.registerPage .register-section .tele-box li{position: relative; zoom: 1; height: 1.65rem; overflow: hidden; margin: 1rem 0 0; padding: 0 1rem;}
+.registerPage .register-section .tele-box label{position: absolute; top: 0; left: 1.5rem; height: 1.65rem; color: #fff; font-size: .65rem; line-height: 1.65rem;}
+.registerPage .register-section .tele-box li > input{-webkit-box-sizing: border-box; box-sizing: border-box; display: block; width: 100%; height: 1.65rem; padding: 0 0 0 3.2rem; -webkit-border-radius: .2rem; border-radius: .2rem; border: .025rem solid #00ccff; background-color: #298dc8; color: #fff; font-size: .65rem;}
+.registerPage .register-section .tele-box li:nth-of-type(2){margin-top: .5rem;}
+.registerPage .register-section .tele-box .time{position: absolute; top: .025rem; right: 1.5rem; height: 1.6rem; background-color: #298dc8; color: #52ace2; font-size: .6rem; line-height: 1.6rem;}
+.registerPage .register-section .tele-box .time:before{content: ''; position: absolute; top: .325rem; left: -.5rem; width: .025rem; height: 1rem; background: #77c8f5; }
+
+.registerPage .tele-box .button-box{text-align: center;} 
+.registerPage .tele-box .button-box .button{display: inline-block; width: 10.75rem; height: 1.65rem; margin: .8rem .5rem 0; -webkit-border-radius: .2rem; border-radius: .2rem; color: #fff; font-size: .6rem; line-height: 1.65rem; text-align: center;} 
+.registerPage .tele-box .button-box .button:nth-of-type(1){background: #f99928;}
+.registerPage .tele-box .button-box .button:nth-of-type(2){background: #00ac9e;}
+.registerPage .tele-box .tip{color: #77c8f5; font-size: .45rem; line-height: 1.65rem; text-align: center;}
+.registerPage .tele-box .tip a{color: #fff;}
+
+.registerPage .tele-box .code-tip{margin: .5rem 0 -1rem; color: #77c8f5; font-size: .6rem; line-height: 1.6rem; text-align: center;}
+
+.registerPage.haslayer{position: relative;}
+.registerPage.haslayer:after{content: ''; position: absolute; top: 0; left: 0; bottom: 0; z-index: 100; width: 100%; height: 100%; background: rgba(0,0,0,.5);}
+
+.registerPage .mobileRegister-layerbox{position: fixed; tab-size: 50%; left: 50%; z-index: 101; width: 10rem; height: 5.25rem; overflow: hidden; margin: -2.625rem 0 0 -5rem; -webkit-border-radius: .2rem; border-radius: .2rem; border: .025rem solid #00324e; background: #b6d8eb;}
+.registerPage .mobileRegister-layerbox h3{font-size: .6rem; height: 1rem; margin: .5rem 0 0; line-height: 1rem; text-align: center;}
+.registerPage .mobileRegister-layerbox p{margin: .2rem 0 0; font-size: .5rem; line-height: .8rem; text-align: center;}
+.registerPage .mobileRegister-layerbox .button-box{position: absolute; bottom: 0; left: 0; height: 1.6rem; width: 100%; border-top: .025rem solid #00324e; background: #74afd0;}
+.registerPage .mobileRegister-layerbox .button-box span{-webkit-box-sizing: border-box; box-sizing: border-box; float: left; width: 50%; height: 1.6rem; border-left: .025rem solid #00324e; color: #2063a2; font-size: .6rem; line-height: 1.6rem; text-align: center;}
+.registerPage .mobileRegister-layerbox .button-box span:first-child{border: 0 none;}

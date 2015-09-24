@@ -114,7 +114,7 @@ table tr:nth-child(2n+1) td {
 							wechat06-repairHistoryList.html
 						</a>
 					</td>  
-				</tr>abandon
+				</tr>
 				<tr>
 					<td>
 						7
@@ -195,7 +195,59 @@ table tr:nth-child(2n+1) td {
 							 other02-register.html
 						</a>
 					</td>  
-				</tr>  
+				</tr> 
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						注册  -- 弹层
+					</td>
+					<td>
+						<a href="code/html/other02-register-layer.html">
+							 other02-register-layer.html
+						</a>
+					</td>   
+				</tr>   
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						注册  -- 验证码
+					</td>
+					<td>
+						<a href="code/html/other02-register1.html">
+							 other02-register1.html
+						</a>
+					</td>   
+				</tr> 
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						注册  -- 填写姓名
+					</td>
+					<td>
+						<a href="code/html/other02-register2.html">
+							 other02-register2.html
+						</a>
+					</td>   
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						注册  -- 填写密码
+					</td>
+					<td>
+						<a href="code/html/other02-register3.html">
+							other02-register3.html
+						</a>
+					</td>   
+				</tr>
 		</table>
 		<address>
 		</address>
