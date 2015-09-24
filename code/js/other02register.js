@@ -1,5 +1,5 @@
 /** 
- * @Description: the script 智能运维平台 -- 登录
+ * @Description: the script 智能运维平台 -- 注册
  * @authors: bradenhan (bradenhan@126.com)
  * @date：    2015-09-17 22:04:29
  * @version： 1.0

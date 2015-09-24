@@ -188,11 +188,11 @@ table tr:nth-child(2n+1) td {
 						2
 					</td>
 					<td>
-						 
+						注册 
 					</td>
 					<td>
-						<a href="code/html/">
-							 
+						<a href="code/html/other02-register.html">
+							 other02-register.html
 						</a>
 					</td>  
 				</tr>  

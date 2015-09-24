@@ -3,43 +3,35 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>智能运维账户登录--智能运维平台</title>
+		<title>智能运维账户注册--智能运维平台</title>
 		<script src="../js/metaViewport.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css" />
 	</head>
 
-	<body class="loginPage">
+	<body class="registerPage">
 		<header id="header">
 			<a href="javascript:history.go(-1)" class="goback">返回</a>
 			<h3 class="page-title">智能运维账户登录</h3>
 			<span class="right-icon">&nbsp;</span>
 		</header>
 
-		<div class="login-section">
-		 	<a href="#" class="avator"><img src="../images/avatorDefault.png" alt="" /></a>
+		<div class="register-section">
+		 	<a href="#" class="avator"></a>
 		 	<ul class="login-form">
 		 		<li>
-		 			<input type="tel" id="userName" placeholder="请输入手机号码"/>
+		 			<input type="text" id="userName"/>
 		 		</li>
 		 		<li> 
-		 			<input type="password" id="passWord" placeholder="请输入密码"/>
+		 			<input type="password" id="passWord"/>
 		 			<div class="toolbar clearfix">
 		 				<a href="#">忘记密码</a>
 		 				<a href="other02-register.html">快速注册</a>
 		 			</div>
 		 		</li>
 		 	</ul>
-		 	
-		 	<div class="button-box">
-				<span class="button complete-button">登&#x3000;录</span>
-			</div>
-			
-			<div class="error-message">
-				密码错误，请重新输入
-			</div>
 		</div>
 
-		<script data-main="../js/other01login" src="../js/require.min.js"></script>
+		<script data-main="../js/other02register" src="../js/require.min.js"></script>
 	</body>
 
 </html>
