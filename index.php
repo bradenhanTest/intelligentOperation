@@ -55,7 +55,7 @@ table tr:nth-child(2n+1) td {
 						2
 					</td>
 					<td>
-						抢单列表页
+						抢单任务
 					</td>
 					<td>
 						<a href="code/html/wechat02-grabOrder.html">
@@ -164,6 +164,32 @@ table tr:nth-child(2n+1) td {
 					<td>
 						<a href="code/html/wechat10-trafficRoutes.html">
 							wechat10-trafficRoutes.html
+						</a>
+					</td>  
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						指派任务
+					</td>
+					<td>
+						<a href="code/html/wechat11-assignmentTask.html">
+							wechat11-assignmentTask.html
+						</a>
+					</td>  
+				</tr>
+				<tr>
+					<td>
+						12
+					</td>
+					<td>
+						填写回单--待填写回单
+					</td>
+					<td>
+						<a href="code/html/wechat12-unfillReceiptOrder.html">
+							wechat12-unfillReceiptOrder.html
 						</a>
 					</td>  
 				</tr>
