@@ -7,9 +7,10 @@
 (function(){
 	//微信页面隐藏头部
 	var ua = window.navigator.userAgent.toLowerCase();
-    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
-        document.getElementById('header').style.display = 'none';
+    if(ua.match(/MicroMessenger/i) != 'micromessenger'){
+        document.getElementById('header').style.display = 'block';
     }else{ 
+        document.getElementById('header').style.display = 'none';
         return false;
     } 
 })()
