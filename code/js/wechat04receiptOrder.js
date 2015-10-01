@@ -80,7 +80,8 @@ require(['jquery', 'wechatHideHeader'], function($) {
 			},
 			error: function() {
 				loadingWrap.hide();
-				errorWrap.show();
+				errorWrap.show();  
+				
 			}
 		});
 	});
