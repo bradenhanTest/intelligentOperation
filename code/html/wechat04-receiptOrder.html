@@ -23,38 +23,15 @@
 			<a href="wechat06-repairHistoryList.html">维修历史记录</a>
 		</div>
 
-		<div class="grabOrderDetail-section">
-			<ul class="grabOrder-summary">
-				<li>客户名称：河北中行数据中心</li>
-				<li class="address">客户地址：石家庄自强路**号5层石家庄自强路</li>
-				<li class="telphone">联系方式：0311-88888888</li>
-				<li>服务类型：收费服务</li>
-				<li>故障类型：偶发性故障</li>
-				<li class="price">5000</li>
-			</ul>
-
-			<div class="part-header">
-				<h3 class="part-title">呼叫记录</h3>
-			</div>
-
-			<div class="call-log">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneaneuismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
-					nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
-			</div>
-
-			<div class="part-header">
-				<span class="date"> 2015-09-06  13：45</span>
-				<h3 class="part-title">服务响应时间</h3>
-			</div>
-
-			<ul class="pic-list clearfix">
-				<li><img src="../images/photo.jpg" alt="" /></li>
-				<li><img src="../images/photo.jpg" alt="" /></li>
-			</ul>
-
-			<div class="button-box">
-				<a href="wechat04-receiptOrder.html" class="complete-button">抢&#x3000;单</a>
-			</div>
+		<div id="grabOrderDetailSection"  class="grabOrderDetail-section" style="display: none;">
+			 
+		</div>
+		
+		<div class="loading-wrap">
+			<span class="loading" id="globalLoading">正在努力加载 。。。</span> 
+		</div>
+		<div class="error-wrap"> 
+			<span class="error-tip">网络连接错误，请稍后再试</span>
 		</div>
 
 		<script data-main="../js/wechat04receiptOrder" src="../js/require.min.js"></script>
