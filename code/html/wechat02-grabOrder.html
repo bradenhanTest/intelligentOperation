@@ -3,9 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>抢单列表页--智能运维平台</title>
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/>
-		<meta http-equiv="Expires" content="0"/>
+		<title>抢单列表页--智能运维平台</title> 
 		<script src="../js/metaViewport.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/intelligentOperation.css" />
 	</head>
@@ -18,85 +16,32 @@
 			<span class="right-icon">&nbsp;</span>
 		</header>
 
-		<div class="grabOrder-section">
+		<div id="chargeOrderSection" class="grabOrder-section" style="display: none;">
 			<div class="section-header">
 				<h3 class="section-title">收费任务</h3>
 			</div>
-			<ul class="grabOrder-items">
-				<li class="grabOrder-item">
-					<a href="wechat03-grabOrderDetail.html">
-						<div class="grabOrder-title">
-							<h3>任务一：数据库宕机数据库宕机</h3>
-							<p>河北中行数据中心</p>
-						</div>
-						<span class="price">500</span>
-						<div class="button-box">
-							<span class="button">抢单</span>
-							<p>时效：30分钟</p>
-						</div>
-					</a>
-				</li>
-				<li class="grabOrder-item">
-					<a href="wechat03-grabOrderDetail.html">
-						<div class="grabOrder-title">
-							<h3>任务一：数据库宕机</h3>
-							<p>河北中行数据中心</p>
-						</div>
-						<span class="price">5000000</span>
-						<div class="button-box">
-							<span class="button">抢单</span>
-							<p>时效：30分钟</p>
-						</div>
-					</a>
-				</li>
+			<ul class="grabOrder-items" id="chargeOrderList">
+				 
 			</ul>
+			<span class="loading" id="chargeLoading">正在努力加载 。。。</span> 
+			<span class="more-link" id="chargeOrderMore">点击加载更多</span>
 		</div>
 
-		<div class="grabOrder-section">
+		<div id="contractOrderSection" class="grabOrder-section" style="display: none;">
 			<div class="section-header">
 				<h3 class="section-title">合约服务</h3>
 			</div>
-			<ul class="grabOrder-items">
-				<li class="grabOrder-item">
-					<a href="wechat03-grabOrderDetail.html">
-						<div class="grabOrder-title">
-							<h3>任务一：数据库宕机数据库宕机</h3>
-							<p>河北中行数据中心</p>
-						</div>
-						<span class="price">500</span>
-						<div class="button-box">
-							<span class="button">抢单</span>
-							<p>时效：30分钟</p>
-						</div>
-					</a>
-				</li>
-				<li class="grabOrder-item">
-					<a href="wechat03-grabOrderDetail.html">
-						<div class="grabOrder-title">
-							<h3>任务一：数据库宕机</h3>
-							<p>河北中行数据中心</p>
-						</div>
-						<span class="price">5000000</span>
-						<div class="button-box">
-							<span class="button">抢单</span>
-							<p>时效：30分钟</p>
-						</div>
-					</a>
-				</li>
-				<li class="grabOrder-item">
-					<a href="wechat03-grabOrderDetail.html">
-						<div class="grabOrder-title">
-							<h3>任务一：数据库宕机</h3>
-							<p>河北中行数据中心</p>
-						</div>
-						<span class="price">5000000</span>
-						<div class="button-box">
-							<span class="button">抢单</span>
-							<p>时效：30分钟</p>
-						</div>
-					</a>
-				</li>
+			<ul class="grabOrder-items" id="contractOrderList">
+				  
 			</ul>
+			<span class="loading" id="contractLoading">正在努力加载 。。。</span> 
+			<span class="more-link" id="contractOrderMore">点击加载更多</span>
+		</div>
+		<div class="loading-wrap">
+			<span class="loading" id="globalLoading">正在努力加载 。。。</span> 
+		</div>
+		<div class="error-wrap"> 
+			<span class="error-tip">网络连接错误，请稍后再试</span>
 		</div>
 		<script data-main="../js/wechat02grabOrder" src="../js/require.min.js"></script>
 	</body>
