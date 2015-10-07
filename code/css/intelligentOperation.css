@@ -189,6 +189,8 @@ header .right-icon{position: absolute; top: 0; right: .5rem; width: .85rem; heig
 .evaluationOrderList-section .evaluationOrder-item span{display: block; height: .9rem; overflow: hidden; margin: .375rem 0 0; color: #77c8f5; font-size: .55rem; line-height: .9rem;}
 .evaluationOrderList-section .evaluationOrder-item  h3{height: 1.1rem; max-width: 11rem; overflow: hidden; margin: .25rem 0 0; color: #fff; font-weight: normal; font-size: .6rem; line-height: 1.1rem;}
 .evaluationOrderList-section .evaluationOrder-item  span.state{height: 1.1rem; overflow: hidden; margin: .25rem 0 0; color: #fff; font-weight: normal; font-size: .6rem; line-height: 1.1rem;}
+.evaluationOrderList-section .more-link{display: block; margin: .5rem 3rem 0; -webkit-border-radius: .2rem; border-radius: .2rem; background: #0e78b2; color: #fff; font-size: .65rem; text-align: center; line-height: 1.25rem;}
+.evaluationOrderList-section .loading{display: none;}
 
 /* evaluationOrderDetail-section */
 .evaluationOrderDetail-section{margin: 0 .5rem; padding: 0 0 .35rem;}
@@ -201,8 +203,8 @@ header .right-icon{position: absolute; top: 0; right: .5rem; width: .85rem; heig
 .evaluationOrderDetail-section .evaluation-item{height: 1.2rem; overflow: hidden; margin: 1rem 0 0; color: #b8dff1; font-size: .6rem; line-height: 1.2rem;}
 .evaluationOrderDetail-section .evaluation-item:first-child{margin-top: .2rem;}
 .evaluationOrderDetail-section .evaluation-item .button{float: right; position: relative; width: 2.2rem; height: 1.2rem; overflow: hidden; box-shadow: inset .2rem .2rem .5rem rgba(0,0,0,.2); -webkit-border-radius: .6rem; border-radius: .6rem; background: #1e284d;}
-.evaluationOrderDetail-section .evaluation-item .button.open:before{content: ''; position: absolute; top: .15rem; left: .15rem; width: .9rem; height: .9rem; box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2); -webkit-border-radius: 50%; border-radius: 50%; background: #2db4ff;}
-.evaluationOrderDetail-section .evaluation-item .button.closed:before{content: ''; position: absolute; top: .15rem; right: .15rem; width: .9rem; height: .9rem; box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2); -webkit-border-radius: 50%; border-radius: 50%; background: #2db4ff;}
+.evaluationOrderDetail-section .evaluation-item .button:before{content: ''; position: absolute; top: .15rem; left: .15rem; width: .9rem; height: .9rem; box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2); -webkit-border-radius: 50%; border-radius: 50%; background: #2db4ff; -webkit-transition: all 1s ease; transition: all 1s ease;}
+.evaluationOrderDetail-section .evaluation-item .button.closed:before{content: ''; position: absolute; top: .15rem; right: .15rem; left: auto; width: .9rem; height: .9rem; box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2); -webkit-border-radius: 50%; border-radius: 50%; background: #2db4ff; -webkit-transition: all 1s ease; transition: all 1s ease;}
 
 .evaluationOrderDetail-section .checkbox-list h3{height: .95rem; margin: .5rem 0 0; color: #fff; font-weight: normal; font-size: .55rem; text-align: center; line-height: .95rem;}
 .evaluationOrderDetail-section .checkbox-list label{float: left; width: 33.33%; height: 1.5rem; color: #fff; font-size: .55rem; line-height: 1.5rem;}

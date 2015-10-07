@@ -14,5 +14,5 @@ require.config({
 });
 
 require(['jquery', 'wechatHideHeader'], function($) {
-	console.log(111)
+	console.log('此页面的js交互未写')
 });

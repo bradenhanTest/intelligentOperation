@@ -13,6 +13,6 @@ require.config({
     urlArgs: "bust=" + (new Date()).getTime()
 });
 
-require(['jquery', 'wechatHideHeader'], function($) {
-	console.log(111)
+require(['jquery', 'wechatHideHeader'], function($) { 
+	console.log('此页面的js交互未写')
 });

@@ -14,5 +14,9 @@ require.config({
 });
 
 require(['jquery', 'wechatHideHeader'], function($) {
-	console.log(111)
+	
+	//按钮点击展开关闭
+	$('.evaluation-items .evaluation-item').on('click','.button',function(){
+		$(this).toggleClass('closed');
+	});
 });
