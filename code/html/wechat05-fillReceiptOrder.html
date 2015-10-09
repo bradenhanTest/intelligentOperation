@@ -27,20 +27,26 @@
 		<div class="fillReceiptOrder-section">
 			<ul class="fillReceipt-items">
 				<li class="fillReceipt-item item1 clearfix">
-					<input type="text" placeholder="请输入机型" />
-					<input type="text" placeholder="请输入系列号" />
+					<span class="tip" style="display: none;"> </span>
+					<span class="tip tip2" style="display: none;"> </span>
+					<input type="text" placeholder="请输入机型" id="modelType"/>
+					<input type="text" placeholder="请输入系列号" id="serialNumber"/>
 				</li>
 				<li class="fillReceipt-item item2 clearfix">
-					<textarea name="" rows="" cols="" placeholder="请输入工作内容"></textarea>
+					<span class="tip" style="display: none;"> </span>
+					<textarea name="" rows="" cols="" placeholder="请输入工作内容" id="workContent"></textarea>
 				</li>
 				<li class="fillReceipt-item item3 clearfix">
-					<textarea name="" rows="" cols="" placeholder="请输入本次解决的问题"></textarea>
+					<span class="tip" style="display: none;"> </span>
+					<textarea name="" rows="" cols="" placeholder="请输入本次解决的问题" id="solveProblem"></textarea>
 				</li>
 				<li class="fillReceipt-item item4 clearfix">
-					<textarea name="" rows="" cols="" placeholder="请输入下一步工作计划"></textarea>
+					<span class="tip" style="display: none;"> </span>
+					<textarea name="" rows="" cols="" placeholder="请输入下一步工作计划" id="workPlan"></textarea>
 				</li>
 				<li class="fillReceipt-item item5 clearfix">
-					<textarea name="" rows="" cols="" placeholder="备注"></textarea>
+					<span class="tip" style="display: none;"> </span>
+					<textarea name="" rows="" cols="" placeholder="备注" id="remarks"></textarea>
 				</li>
 			</ul>
 
@@ -51,7 +57,7 @@
 			</ul>
 
 			<div class="button-box">
-				<span class="button" id="cmplete-button">完&#x3000;成</span>
+				<span class="button" id="completeButton">完&#x3000;成</span>
 				<span class="button" id="back-button">退&#x3000;单</span>
 			</div>
 		</div>

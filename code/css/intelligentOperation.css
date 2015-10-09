@@ -117,11 +117,13 @@ header .right-icon{position: absolute; top: 0; right: .5rem; width: .85rem; heig
 /* fillReceiptOrder-section */
 .fillReceiptOrder-section{margin: .5rem; padding: .2rem 0 .35rem; -webkit-border-radius: .2rem; border-radius: .2rem;}
 
-.fillReceiptOrder-section .fillReceipt-items > li{-webkit-box-sizing: border-box; box-sizing: border-box; margin: .5rem 0 0;}
+.fillReceiptOrder-section .fillReceipt-items > li{position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; margin: .5rem 0 0;}
 .fillReceiptOrder-section .fillReceipt-items > li > input{-webkit-box-sizing: border-box; box-sizing: border-box; display: block; width: 100%; height: 1.6rem; padding: 0 .3rem; -webkit-border-radius: .2rem; border-radius: .2rem; border: .025rem solid #086092; background: #2e94d2; color: #fff; font-size: .6rem; line-height: 1.6em;}
 .fillReceiptOrder-section .fillReceipt-items > li > textarea{-webkit-box-sizing: border-box; box-sizing: border-box; display: block; width: 100%; height: 3rem; padding: .1rem .3rem; -webkit-border-radius: .2rem; border-radius: .2rem; border: .025rem solid #086092; background: #2e94d2; color: #fff; font-size: .6rem; line-height: 1rem;}
 .fillReceiptOrder-section .fillReceipt-items > li:nth-child(1) input{float: right; width: 48%;}
 .fillReceiptOrder-section .fillReceipt-items > li:nth-child(1) input:nth-of-type(1){float: left;}
+.fillReceiptOrder-section .fillReceipt-items > li .tip{position: absolute; top: .3rem; left: .3rem; height: 1rem; background: #2e94d2; color: #C5B327; font-size: .6rem; line-height: 1rem;}
+.fillReceiptOrder-section .fillReceipt-items > li .tip2{left: 54%;}
 
 .fillReceiptOrder-section .pic-list{padding: .6rem 0 0;}
 .fillReceiptOrder-section .pic-list > li{float: left; width: 4rem; height: 2.25rem; overflow: hidden; margin: .4rem .4rem 0 0;}
