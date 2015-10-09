@@ -17,13 +17,25 @@
 		
 		<div class="emergencyTask">
 			<ul class="form-items">
-				<li><input type="text" placeholder="请输入客户名称或编号"/></li>
-				<li><input type="text" placeholder="请输入客户姓名"/></li>
-				<li><input type="tel" placeholder="请输入联系电话"/></li>
-				<li><textarea name="" rows="" cols="" placeholder="请输入呼叫记录内容"></textarea></li> 
+				<li>
+					<span class="tip" style="display: none;"> </span>
+					<input type="text" placeholder="请输入客户名称或编号" id="userNo"/>
+				</li>
+				<li>
+					<span class="tip" style="display: none;"> </span>
+					<input type="text" placeholder="请输入客户姓名" id="userName"/>
+				</li>
+				<li>
+					<span class="tip" style="display: none;"> </span>
+					<input type="tel" placeholder="请输入联系电话"  id="userPhone"/>
+				</li>
+				<li>
+					<span class="tip" style="display: none;"> </span>
+					<textarea name="" rows="" cols="" placeholder="请输入呼叫记录内容"  id="recordContent"></textarea>
+				</li> 
 			</ul>
 			<div class="button-box">
-				<span class="button" id="cmplete-button">完成</span>
+				<span class="button" id="cmpleteButton">完成</span>
 				<span class="button" id="back-button">返回</span>
 			</div>
 		</div> 
