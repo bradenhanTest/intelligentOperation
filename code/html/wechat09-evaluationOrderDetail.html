@@ -26,15 +26,15 @@
 			<div class="evaluation-detail">
 				<ul class="evaluation-items">
 					<li class="evaluation-item clearfix">
-						<span class="button"></span>
+						<span class="button" id="completeTask"></span>
 						<span class="evaluation-text">请用户确认是否完成实施（安装、维护）?</span>
 					</li>
 					<li class="evaluation-item clearfix">
-						<span class="button"></span>
+						<span class="button" id="completeAppointmen"></span>
 						<span class="evaluation-text">是否在规定时间与客户预约？</span>
 					</li>
 					<li class="evaluation-item clearfix">
-						<span class="button"></span>
+						<span class="button" id="completeCal"></span>
 						<span class="evaluation-text">是否在规定时间上门服务？</span>
 					</li>
 				</ul>
@@ -43,7 +43,7 @@
 					<h3>您对此次实施任务评价？</h3>
 					<div class="clearfix">
 						<label for="item1">
-							<input type="radio" name="evaluationGroup" id="item1" />非常满意
+							<input type="radio" name="evaluationGroup" id="item1" checked/>非常满意
 						</label>
 						<label for="item2">
 							<input type="radio" name="evaluationGroup" id="item2" />满意
@@ -54,11 +54,14 @@
 					</div>
 				</div>
 
-				<textarea name="" rows="" cols="" placeholder="签名"></textarea>
+				<div class="textarea-wrap" id="textareaWrap">
+					<span class="tip" style="display: none;"></span>
+					<textarea name="" rows="" cols="" placeholder="签名" id="signature"></textarea>
+				</div>
 			</div>
 
 			<div class="button-box">
-				<span class="button" id="cmplete-button">确&#x3000;定 </span>
+				<span class="button" id="completeButton">确&#x3000;定 </span>
 			</div>
 		</div>
 

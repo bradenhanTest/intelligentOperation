@@ -80,7 +80,6 @@ require(['jquery', 'wechatHideHeader'], function($) {
 					alert('\u63d0\u4ea4\u5931\u8d25'); //提交失败
 				}
 			}
-		});
-		return false;
+		}); 
 	});
 });
