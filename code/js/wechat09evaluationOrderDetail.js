@@ -87,7 +87,7 @@ require(['jquery', 'wechatHideHeader'], function($) {
 			success: function(data) { 
 				if (data.status == "1") {
 					alert("\u63d0\u4ea4\u6210\u529f!"); //提交成功
-					//window.location.reload()
+					window.location.reload()
 				} else {
 					alert('\u63d0\u4ea4\u5931\u8d25'); //提交失败
 				}
