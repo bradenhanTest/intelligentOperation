@@ -19,6 +19,8 @@ require(['jquery', 'wechatHideHeader'], function($) {
 		$(this).parent().find('span.tip').hide();
 	})
 	
+	$('div.loading-wrap').delay(3000).hide();  
+	
 	$("#completeButton").on('click', function() {
 		//声明表单变量
 		var modelType = $('#modelType').val(),

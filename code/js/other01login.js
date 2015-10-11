@@ -15,4 +15,6 @@ require.config({
 
 require(['jquery','wechatHideHeader'], function($) {
 	console.log(111)
+	
+	$('div.loading-wrap').delay(3000).hide(); 
 });

@@ -14,6 +14,8 @@ require.config({
 
 require(['jquery', 'wechatHideHeader'], function($) { 
 	
+	$('div.loading-wrap').delay(3000).hide(); 
+	
 	$('.form-items').on('click',function(){
 		$(this).parent().find('span.tip').hide();
 	})
